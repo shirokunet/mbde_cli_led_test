@@ -1,1 +1,1 @@
-mbed compile -t GCC_ARM -m LPC1768 --source ../mbde_cli_led_test --source ../mbed-os --build ../BUILD/mbde_cli_led_test ; cp -f ../BUILD/mbde_cli_led_test/mbde_cli_led_test.bin /media/reyes/MBED
+rm /media/reyes/MBED/*.bin; cp -f ../BUILD/led_test/led_test.bin /media/reyes/MBED
